@@ -1,4 +1,4 @@
-# Booky-Home-Page
+# Booky Home Page
 
 Il s'agit du Projet 2 de ma formation développeur/intégrateur Web sur OpenClassrooms.
 
