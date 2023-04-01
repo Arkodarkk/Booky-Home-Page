@@ -271,7 +271,7 @@ header img {
     height: 24px;
     width: 24px;
     border: solid 1px #D9D9D9;
-    border-radius: 45px;
+    border-radius: 50%;
 }
 
 .text-info-bar {
@@ -547,6 +547,10 @@ footer {
 
 /*** Small devices (phones, less than 768px) ***/
 @media (max-width: 767.98px) {
+    * {
+        box-sizing: border-box;
+    }
+
     .main-container {
         padding: 0;
     }
@@ -621,7 +625,7 @@ footer {
     }
 
     .search-button-mobile {
-        display: unset;
+        display: revert;
         border-radius: 13px;
         width: 15%;
         padding: 0;
@@ -663,7 +667,7 @@ footer {
     }
 
     .info-icon {
-        width: 30px;
+        min-width: 24px;
     }
 
 /* Hebergements And Populaires */   
